@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JIET UNIVERSE">
+    <meta name="author" content="Annu Kumari">
+    <title>JIET Universe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class=" sub-head">
+        <nav>
+            <a href="index.html"><img src="images/JIETLOGO.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+        </section>
+        <!--------Courses-------->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Under Graduation </h3>
+                    <p> We provide courses in UG are B.Tech in computer Science and Engineering , Electronics and Communication Engineering, Electrical Engineering, Civil Engineering, Mechanical Engineering, Data Science and Artificial Intelligence and Machine Learning.In UG course We alse provide Nursing, Hotel Management and Design.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation </h3>
+                    <p>We provide courses in Post Graduate are M.Tech in Data Science, Thermal Engineering, Power System and Digital Communication. And we also provide post Graduate in MBA in Various branches like finance, Marketing, HR etc. </p>
+                </div>
+                <div class="course-col">
+                    <h3>Diploma </h3>
+                    <p>We provide courses in Diploma program which is Diploma in Food Production, Diploma in Front Office Operations, Diploma in Bakery and Confectionery, Diploma in Pharmacy.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Phd. </h3>
+                    <p>We provide courses in Doctor of Philosophy in Computer Science and Engineering, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering and Management Studies. </p>
+                </div>
+            </div>
+        </section>
+        <!-------Facilities--------->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>We provide Facilities like.....</p>
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="images/lib3.png">
+                        <h3>JIET Library</h3>
+                        <p>With the objective of supporting the academic and research activities of the institute, JIET has 1 Central Library and 8 Departmental Libraries.
+                        </br> Area of Library – 8191.34 sq. Ft.
+                        </br> Titles – 6234
+                        </br> Volumes – 34115
+                        </br> National Journals – 50
+                        </br> International Journals – 34
+                        </br> E-resources – 773 CD & DVD, DELNET
+                        </br> Knimbus digital library (Over 85000</br> e-books and 18000 e-journals)
+                        </br> Library Automation – Own developed ERP
+                        </br> Library Timings – 24*7 Open
+                            </p>
+                    </div>
+                    
+                    <div class="facilities-col">
+                        <img src="images/boyshstl.png">
+                        <h3>JIET Boys Hostel</h3>
+                        <p>The life in Hostel allows student to make utmost utillsation of library. Wi-fi. Indoor and outdoor sports, gym and other resources which helps in nourishing the overall personality of the Hostler. It also enables student to interact with their colleague and seniors, make friends and develop into good human being capable of independent Judgement and </br>competent in handling the day to day pressure of life.</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/girlshstl.png">
+                        <h3>JIET Girls Hostel</h3>
+                        <p>The life in Hostel allows student to make utmost utillsation of library. Wi-fi. Indoor and outdoor sports, gym and other resources which helps in nourishing the overall personality of the Hostler. It also enables student to interact with their colleague and seniors, make friends and develop into good human being capable of independent Judgement and competent in handling the day to day pressure of life.</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/_MG_1922.png">
+                        <h3>JIET Playground Ground</h3>
+                        <p>Sports and Games are essential components that help in building up a healthy intellectual life.JIET provides all the necessary facilities and equipment to the students for maintaining physical fitness and good health. There are multiple sports facilities like Basketball, Football, Cricket, Table Tennis, Badminton, Etc to keep our students engaged and physically fit.</p>
+                    </div>
+
+                </div>
+
+        </section>
+
+        
+
+        <!--------Footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Jodhpur Institute of Engineering and Technology, Mogra, Pali Road, Jodhpur, affiliated to Bikaner </br>
+                Technical University Rajasthan accredited with CGPA of 3.19 on seven Point scale at A gread valid</br>
+                up to March 27,2024 ,  JIET is One and  Only Engineering Institute of Rajasthan to have NAAC A Grade.</br>
+                And also Accreditation with NBA( National Board of Accreditation).</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by JIET Group of Instution</p>
+        </section>
+
+        <!-----JavaScript for Toggle menu------>
+        <script>
+            var  navlinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        </body>
+        </html>

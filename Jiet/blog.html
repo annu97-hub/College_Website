@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JIET UNIVERSE">
+    <meta name="author" content="Annu Kumari">
+    <title>JIET Universe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class=" sub-head">
+        <nav>
+            <a href="index.html"><img src="images/JIETLOGO.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Programs for 2022</h1>
+        </section>
+        <!----------Blog page content-------->
+        <section class="blog-content">
+            <div class="row">
+                <div class="left">
+                    <img src="images/grad.jpg" alt="">
+                    <h1>JIET BLOGS</h1>
+                    <h2>Space Planning in Interior Designing</h2>
+                    <p>Space planning is one of the most important aspects of interior design. Whether you are an amateur or professional in this field, utilizing the space is one of your primary responsibilities, and ignoring it may put you in a tough spot. This is why you should know.  </br><a href="https://www.jietjodhpur.ac.in/blog/space-planning-in-interior-designing">Read More</a></p>
+                    <br/>
+                    <h2>Python vs R: Best Programming Language for Data Scientists</h2>
+                    <p>Programming languages are a way of communication between programmers and computers. One needs to have real in-hand experience and knowledge about the various programming languages to develop an actual skill set in web development.</br><a href="https://www.jietjodhpur.ac.in/blog/python-vs-r-best-programming-language-for-data-scientists">Read More</a></p>
+                        <br/>
+                        <h2>Top 5 Programming Languages for Developers in 2022</h2>
+                        <p>With the abrupt growth in the Information Technology sector, there is an unending demand for versatile workers who can serve various fields of computer science. With this advancement, the need to grasp programming languages is felt everywhere.</br><a href="https://www.jietjodhpur.ac.in/blog/top-5-programming-languages-for-developers-in-2022">Read More</a> </p>
+                        <br/>
+                        <h2>What is a Machine Learning Engineer? What Do They Do</h2>
+                        <p>An artificial intelligence subcategory known as Machine Learning (ML) refers to the process of enabling computers to recognize patterns, make predictions based on data, and then make necessary changes without being programmed to do so.</br><a href="https://www.jietjodhpur.ac.in/blog/what-is-a-machine-learning-engineer-what-do-they-do">Read More</a> </p>                    
+                            <div class="comment">
+                                <h3>
+                                    Leave a comment
+                                </h3>
+                                <form action="" class="comment-form">
+                                    
+                                    <input type="text" placeholder="Enter Name">
+                                    <input type="email" placeholder="Enter Email">
+                                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                                    <button class="hero-btn red-btn" type="submit">POST COMMENT</button>
+                                </form>
+                            </div>   
+                </div>
+                <div class="blog-right">
+                    <h3>Course Categories</h3>
+                    <div>
+                        <span>B.Tech</span>
+                        <span>7</span>
+                    </div>
+                    <div>
+                        <span>Nursing</span>
+                        <span>1</span>
+                    </div>
+                    <div>
+                        <span>M.Tech</span>
+                        <span>4</span>
+                    </div>
+                    <div>
+                        <span>HM</span>
+                        <span>5</span>
+                    </div>
+                    <div>
+                        <span>MBA</span>
+                        <span>3</span>
+                    </div>
+                    <div>
+                        <span>Phd.</span>
+                        <span>4</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--------Footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Jodhpur Institute of Engineering and Technology, Mogra, Pali Road, Jodhpur, affiliated to Bikaner </br>
+                Technical University Rajasthan accredited with CGPA of 3.19 on seven Point scale at A gread valid</br>
+                up to March 27,2024 ,  JIET is One and  Only Engineering Institute of Rajasthan to have NAAC A Grade.</br>
+                And also Accreditation with NBA( National Board of Accreditation).</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by JIET Group of Instution</p>
+        </section>
+
+        <!-----JavaScript for Toggle menu------>
+        <script>
+            var  navlinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        </body>
+        </html>
